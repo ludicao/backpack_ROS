@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: hebiros_description
+    relative_path: urdf/robot.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/arm_demo.srdf
+  CONFIG:
+    author_name: Ludi Cao
+    author_email: ludicao@gmail.com
+    generated_timestamp: 1558557255

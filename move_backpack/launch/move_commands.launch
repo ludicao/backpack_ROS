@@ -1,0 +1,8 @@
+<launch>
+  <node name = "add_object" pkg = "move_backpack" type = "add_objects.py" respawn = "false" output = "screen">
+  </node>
+   <node name="backpack_move" pkg="move_backpack" type="move_to_defined_pose.py" respawn="false" output="screen">
+  </node>
+  <node name = "remove_object" pkg = "move_backpack" type = "remove_objects.py" respawn = "false" output = "screen">
+  </node>
+</launch>
